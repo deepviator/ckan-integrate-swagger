@@ -1,4 +1,4 @@
-CKAN & SWAGGER UI Intefrate Project
+CKAN & SWAGGER UI Integrate Project
 ==========================================
 
 
