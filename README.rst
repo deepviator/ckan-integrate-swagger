@@ -6,14 +6,6 @@ CKAN & SWAGGER UI Intefrate Project
 CKAN
 ==========================================
 
-.. image:: https://secure.travis-ci.org/okfn/ckan.png?branch=master
-    :target: http://travis-ci.org/okfn/ckan
-    :alt: Build Status
-
-.. image:: https://coveralls.io/repos/okfn/ckan/badge.png
-	:target: https://coveralls.io/r/okfn/ckan
-	:alt: Test coverage
-
 **CKAN is the world’s leading open-source data portal platform**.
 CKAN makes it easy to publish, share and work with data. It's a data management
 system that provides a powerful platform for cataloging, storing and accessing
@@ -32,7 +24,7 @@ and interact with the remote service with a minimal amount of implementation log
 Similar to what interfaces have done for lower-level programming, Swagger removes the 
 guesswork in calling the service.
 
-Swagger's original sorce code can be found on
+Swagger's original sorce code can be found on https://github.com/swagger-api
 
 Copying and License
 -------------------
