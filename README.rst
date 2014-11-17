@@ -20,7 +20,7 @@ system that provides a powerful platform for cataloging, storing and accessing
 datasets with a rich front-end, full API (for both data and catalog), visualization
 tools and more. Read more at `ckan.org <http://ckan.org/>`_.
 
-CKAN original sorce code can be found on https://github.com/ckan/ckan
+CKAN's original sorce code can be found on https://github.com/ckan/ckan
 
 The Swagger Specification
 ==========================================
@@ -31,6 +31,8 @@ network traffic inspection. When properly defined via Swagger, a consumer can un
 and interact with the remote service with a minimal amount of implementation logic. 
 Similar to what interfaces have done for lower-level programming, Swagger removes the 
 guesswork in calling the service.
+
+Swagger's original sorce code can be found on
 
 Copying and License
 -------------------
