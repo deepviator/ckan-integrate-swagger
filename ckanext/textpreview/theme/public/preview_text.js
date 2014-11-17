@@ -62,7 +62,7 @@ ckan.module('textpreview', function (jQuery, _) {
           if (p.language) {
             highlighted = hljs.highlight(p.language, data, true).value;
           } else {
-            highlighted = '<pre>' + data + '</pre>';
+            highlighted = '<pre> MyJSON' + data + '</pre>';
           }
 
           self.el.html(highlighted);
