@@ -1,10 +1,13 @@
-CKAN & SWAGGER UI Integrate Project
+CKAN: The Open Source Data Portal Software
 ==========================================
 
+.. image:: https://secure.travis-ci.org/okfn/ckan.png?branch=master
+    :target: http://travis-ci.org/okfn/ckan
+    :alt: Build Status
 
-
-CKAN
-==========================================
+.. image:: https://coveralls.io/repos/okfn/ckan/badge.png
+	:target: https://coveralls.io/r/okfn/ckan
+	:alt: Test coverage
 
 **CKAN is the world’s leading open-source data portal platform**.
 CKAN makes it easy to publish, share and work with data. It's a data management
@@ -12,19 +15,47 @@ system that provides a powerful platform for cataloging, storing and accessing
 datasets with a rich front-end, full API (for both data and catalog), visualization
 tools and more. Read more at `ckan.org <http://ckan.org/>`_.
 
-CKAN's original sorce code can be found on https://github.com/ckan/ckan
 
-The Swagger Specification
-==========================================
-The goal of Swagger™ is to define a standard, language-agnostic interface to REST 
-APIs which allows both humans and computers to discover and understand the 
-capabilities of the service without access to source code, documentation, or through 
-network traffic inspection. When properly defined via Swagger, a consumer can understand 
-and interact with the remote service with a minimal amount of implementation logic. 
-Similar to what interfaces have done for lower-level programming, Swagger removes the 
-guesswork in calling the service.
+Installation
+------------
 
-Swagger's original sorce code can be found on https://github.com/swagger-api
+See the `CKAN Documentation <http://docs.ckan.org>`_ for installation instructions.
+
+
+Support
+-------
+
+If you need help with CKAN or want to ask a question about CKAN, use either the
+`ckan-discuss`_ mailing list or the `CKAN tag on Stack Overflow`_ (try
+searching the Stack Overflow and ckan-discuss archives for an answer to your
+question first).
+
+If you've found a bug in CKAN, open a new issue on CKAN's `GitHub Issues`_ (try
+searching first to see if there's already an issue for your bug).
+
+
+.. _CKAN tag on Stack Overflow: http://stackoverflow.com/questions/tagged/ckan
+.. _ckan-discuss: http://lists.okfn.org/mailman/listinfo/ckan-discuss
+.. _GitHub Issues: https://github.com/ckan/ckan/issues
+
+
+Contributing to CKAN
+--------------------
+
+For contributing to CKAN or its documentation, see
+`CONTRIBUTING <https://github.com/ckan/ckan/blob/master/CONTRIBUTING.rst>`_.
+
+If you want to talk about CKAN development say hi to the CKAN developers on the
+`ckan-dev`_ mailing list or in the `#ckan`_ IRC channel on irc.freenode.net.
+
+If you've figured out how to do something with CKAN and want to document it for
+others, make a new page on the `CKAN wiki`_, and tell us about it on
+`ckan-dev`_.
+
+.. _ckan-dev: http://lists.okfn.org/mailman/listinfo/ckan-dev
+.. _#ckan: http://webchat.freenode.net/?channels=ckan
+.. _CKAN Wiki: https://github.com/ckan/ckan/wiki
+
 
 Copying and License
 -------------------
