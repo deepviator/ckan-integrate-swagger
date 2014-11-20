@@ -1,26 +1,16 @@
-<div class="module-content ckanext-datapreview">
-  {% if embed %}
-    {# images can be embedded directly #}
-    <img src="{{ resource_url }}"></img>
-  {% else %}
-    <div class="data-viewer-error js-hide">
-      <p class="text-error">
-        <i class="icon-info-sign"></i>
-        {{ _('This resource can not be previewed at the moment.') }}
-        <a href="#" data-toggle="collapse" data-target="#data-view-error">
-          {{ _('Click here for more information.') }}
-        </a>
-      </p>
-      <p id="data-view-error" class="collapse"></p>
-      <p>
-        <a href="{{ raw_resource_url }}" class="btn btn-large resource-url-analytics" target="_blank">
-          <i class="icon-large icon-download"></i>
-          {{ _('Download resource') }}
-        </a>
-      </p>
-    </div>
-    <iframe src="http://140.92.25.58:8900/swagger/index.html?url={{ resource_url }}" frameborder="0" width="100%" data-module="data-viewer">
-      <p>{{ _('Your browser does not support iframes.') }}</p>
-    </iframe>
-  {% endif %}
+<div class="module-content">
+  <div class="alert alert-block">
+    {{ _('No preview available.') }}
+    <button class="btn btn-link" data-toggle="collapse" data-target="#details">
+      <i class="icon-info-sign"></i> {{ _('More details...') }}
+    </button>
+    <div id="details" class="collapse">
+      {% if reason %}
+        {{ reason }}
+      {% else %}
+        {% set t = '<code>'|safe + resource_type + '</code>'|safe %}
+        {{ gettext('No handler defined for data type: %(type)s.', type=t) }}
+      {% endif %}
+  	</div>
+  </div>
 </div>
